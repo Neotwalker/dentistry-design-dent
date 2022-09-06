@@ -330,6 +330,7 @@ html {
   -ms-text-size-adjust: none;
   text-size-adjust: none;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
