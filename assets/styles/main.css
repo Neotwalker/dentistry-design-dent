@@ -1587,6 +1587,7 @@ section:first-child{
   transition: var(--transition);
   cursor: pointer;
   border-radius: 8px;
+  display: block;
 }
 
 .service__item:hover {
