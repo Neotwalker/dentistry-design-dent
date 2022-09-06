@@ -336,7 +336,6 @@ html {
 body {
   min-width: var(--site-min-width);
   min-height: inherit;
-  overflow-y: scroll;
   overflow-x: hidden;
   font: inherit;
   color: var(--c-dark);
