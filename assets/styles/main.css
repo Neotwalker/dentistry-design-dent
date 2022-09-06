@@ -5724,6 +5724,14 @@ button.swiper-pagination-bullet {
   .logo__text{
     display: none;
   }
+  .footer__menu .logo__text{
+    display: block;
+    text-align: left;
+    white-space: nowrap;
+  }
+  .logo_footertext{
+    font-size: 0.7em;
+  }
   .hero__content .container{
     padding: 0;
   }
