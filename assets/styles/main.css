@@ -2602,6 +2602,7 @@ section:first-child{
 .service-card__icon {
   width: -moz-max-content;
   width: max-content;
+  width: -webkit-max-content;
   margin: 0 auto;
 }
 
@@ -2613,9 +2614,8 @@ section:first-child{
 .service-card__caption {
   width: -moz-max-content;
   width: max-content;
+  width: -webkit-max-content;
   margin: 0 auto;
-  position: relative;
-  z-index: 999999;
 }
 
 .service-card__description {
@@ -2625,8 +2625,6 @@ section:first-child{
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 10;
   line-height: 1;
-  position: relative;
-  z-index: 999999;
 }
 
 .service-card__btn-call {
@@ -5727,7 +5725,7 @@ button.swiper-pagination-bullet {
   .footer__menu .logo__text{
     display: block;
     text-align: left;
-    white-space: nowrap;
+    word-wrap: nowrap;
   }
   .logo_footertext{
     font-size: 0.7em;
