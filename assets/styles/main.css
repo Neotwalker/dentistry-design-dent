@@ -2613,7 +2613,7 @@ section:first-child{
 
 .service-card__caption {
   width: -moz-max-content;
-  width: max-content;
+  width: 100%;
   width: -webkit-max-content;
   margin: 0 auto;
 }
