@@ -2614,6 +2614,8 @@ section:first-child{
   width: -moz-max-content;
   width: max-content;
   margin: 0 auto;
+  position: relative;
+  z-index: 999999;
 }
 
 .service-card__description {
@@ -2623,6 +2625,8 @@ section:first-child{
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 10;
   line-height: 1;
+  position: relative;
+  z-index: 999999;
 }
 
 .service-card__btn-call {
