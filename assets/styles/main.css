@@ -883,7 +883,7 @@ section.about .container:first-child{
   max-width: 19%;
   background-color: var(--c-light-3);
   padding: 30px;
-  min-height: 344px;
+  min-height: 350px;
   border-radius: 4px;
 }
 .about__advantages .icon{
